@@ -1,0 +1,127 @@
+@import url(https://fonts.google.com/specimen/Tenor+Sans?preview.text_type=custom&preview.text=Valley);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tenor', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background: peru;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* Classes */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #333;
+    height: 60px;
+}
+
+
+.nav
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color:green;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
+
+.header {
+    background-color: peachpuff;
+    color: white;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.box {
+    flex: 1;
+    background: tan;
+    color: white;
+    border-radius: 15px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black;
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+@media(max-width:768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display:block;
+    }
+}
