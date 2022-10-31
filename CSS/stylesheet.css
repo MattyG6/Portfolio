@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: white;
-    background: peru;
+    background: peachpuff;
 }
 
 h1,
@@ -23,6 +23,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+    height: fit-content;
+}
 
 
 /* Classes */
@@ -30,6 +34,13 @@ ul {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.contact {
+    background: #333;
+    font-size: 18px;
+    width: 80%;
+    margin: 50px;
 }
 
 .navbar {
@@ -60,7 +71,7 @@ ul {
 }
 
 .navbar a:hover {
-    color:green;
+    color: orange;
 }
 
 .navbar ul {
@@ -74,15 +85,27 @@ ul {
 
 
 .header {
-    background-color: peachpuff;
+    background-color: peru;
     color: white;
-    min-height: 400px;
+    text-align: left;
+    min-height: 200px;
+    width: 100%;
+    
 }
 
 .header h1 {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
+    text-align: left;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-right: -30px;
+    max-width: 25%;
 }
 
 .header .container {
@@ -114,14 +137,27 @@ ul {
     margin-right: 10px;
 }
 
-@media(max-width:768px) {
+
+@media screen and (max-width: 992px) {
     .header .container {
-        flex-direction: column;
-        padding-top: 20px;
-        text-align: center;
+      flex-direction: column;
+      padding-top: 20px;
+      width: 50%;
     }
 
     .boxes .container {
-        display:block;
+        display: block;
     }
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      width: 100%;
+    }
+   
+    .boxes .container {
+        display: block;
+    }
+  }
