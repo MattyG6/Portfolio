@@ -5,30 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/stylesheet.css">
-    <title>Matt's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <title>Matt Gracie Portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="Home">
         <div class="container">
-            <div>Mathew Gracie</div>
             <ul class="nav"></ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#About">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#reach">Contact</a>
                 </li>
         </div>
     </nav>
 
     <header class="header">
-        <div class="container">
+        <div class="container" id="About">
             <div>
                 <h1> Mathew Gracie</h1>
-                <p> HEADER AHHHHHHHH</p>
+                <h2>Digital Marketing. Web Development. Design.</h2>
+                <br>
+                <p>45.9636° N, 66.6431° W</p>
+                <p>Born A.D. 1997 </p>
+                <br>
+                    <p class="bold">Welcome to my site!</p><p>Born in Fredericton, New Brunswick, I'm a true child of the digital age and love working with technology to create, inspire, and make magic happen. Whether it's building your web page, developing a web app, or communicating across API's, my development skills can make it happen.</p>
+                    <br>
+                    <p>My skills include HTML/CSS/JavaScript, CRM implementation, marketing automation, digital advertising, email marketing and search engine optimization. </p>
+                    <br>
             </div>
             <div class="photo"> 
                 <img src="./Images/MATTGRACIE.jpg" alt="Pictire of Mathew Gracie">
@@ -36,42 +47,80 @@
         </div>
     </header>
 
-    <section class="boxes">
+    <section class="boxes" id="Work">
+        <div class="box">
+            <h2>Refactoring Code for Accessibility & SEO</h2>
+            <p>Refactoring Horiseon's page to improve accessibility and search engine ranking. Adding semantic HTML elements, adding alt attributes and header title, ensuring logical styling & positioning, ensuring header elements are in sequential order.</p>
+            <br>
+            <a href="https://mattyg6.github.io/Horiseon-Project/" target="_blank">
+            <img id="horiseon" src="./Images/horiseon.png" alt="Screenshot of Horiseon Page"></img>    
+            </a>
+        </div>
         <div class="container">
             <div class="box">
-                <h2>Refactoring Code for Accessibility & SEO</h2>
+            <div class="box">
+                <h2>EXAMPLE 2</h2>
                 <p>This is some box text, look at it go!</p>
             </div>
             <div class="box">
-                <h2>Alignment and Space</h2>
+                <h2>EXAMPLE 3</h2>
                 <p>This is some box text, look at it go!</p>
             </div>
             <div class="box">
-                <h2>Alignment and Space</h2>
+                <h2>EXAMPLE 4</h2>
                 <p>This is some box text, look at it go!</p>
             </div>
             <div class="box">
-                <h2>Alignment and Space</h2>
+                <h2>EXAMPLE 5</h2>
                 <p>This is some box text, look at it go!</p>
             </div>
             <div class="box">
-                <h2>Alignment and Space</h2>
-                <p>This is some box text, look at it go!</p>
-            </div>
-            <div class="box">
-                <h2>Alignment and Space</h2>
+                <h2>EXAMPLE 6</h2>
                 <p>This is some box text, look at it go!</p>
             </div>
         </div>
     </section>
 
-    <section class ="contact">
+    <section class="contact" id="reach">
         <h1>Let's Connect!</h1>
-        <p>ASSASSASSASSASS</p>
+        <p>Use the fields below to leave a message.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Submit Form</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group"> 
+                            <label>Name</label>
+                            <input type="text" placeholder="Gandalf the Grey">
+                        </div>    
+                        <div class="input-group"> 
+                            <label>Email</label>
+                            <input type="email" placeholder="balrogslayer@middleearth.ca">
+                        </div>    
+                        <div class="input-group"> 
+                            <label>Subject</label>
+                            <input type="text" placeholder="Let's work together">
+                        </div>  
+                        <div class="message">
+                            <label>Message</label>
+                            <input type="text" placeholder="Your Message">
+                        </div> 
+                    </div>
 
+                    <button type="submit">Submit</button>
+
+                </form>
+
+
+            </div>
+
+        </div>
 
     </section>
 
 
 </body>
+<footer>
+    <p>Copyright Mathew Gracie 2022</p>
+</footer>
 </html>
