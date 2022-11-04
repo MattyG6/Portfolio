@@ -8,3 +8,5 @@ Credits to my bootcamp instructors, my classmates, and major props to Google
 Link: https://mattyg6.github.io/Portfolio/
 
 ! [screenshot](Images/Portfolio-Page-Screenshot.png)
+
+![Portfolio-Page-Screenshot](https://user-images.githubusercontent.com/115666943/199864364-84acd17e-bd30-4f23-b137-7fdb6f44038f.png)
