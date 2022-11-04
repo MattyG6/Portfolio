@@ -7,4 +7,4 @@ Credits to my bootcamp instructors, my classmates, and major props to Google
 
 Link: https://mattyg6.github.io/Portfolio/
 
-<a href src="./Images/Portfolio-Page-Screenshot"></a>
+! [screenshot](Images/Portfolio-Page-Screenshot.png)
